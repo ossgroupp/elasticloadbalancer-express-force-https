@@ -1,0 +1,27 @@
+{
+  "name": "@osspim/elasticloadbalancer-express-force-https",
+  "version": "2.4.0",
+  "description": "Express middleware that will do a 301 redirect if the Elastic Load Balancer adds a x-forwarded-proto=http to the request headers",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ossgroupp/elasticloadbalancer-express-force-https.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "OSSPIM <hello@ossgroup.com>",
+  "keywords": [
+    "Express",
+    "Elastic Load Balancer",
+    "AWS",
+    "HTTPS",
+    "node.js"
+  ]
+}
